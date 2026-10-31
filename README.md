@@ -1,10 +1,10 @@
-# RetailHub - Megastore & Gestione Reparti
+# RetailHub - Megastore & Gestione Reparti POS
 
-Applicazione gestionale multi-reparto (32 referenze attive) per il retail e la grande distribuzione specializzata:
-- **Reparto Calzature & Scarpe:** Calzature Uomo/Donna/Bambino con filtro taglie (38-45), sneakers, scarpe in pelle e stivali.
-- **Reparto Moda, Abbigliamento & Valigeria:** Denim jeans, capispalla, felpe, valigie rigide e zaini da viaggio.
-- **Reparto Bellezza & Cura Persona:** Cosmesi, skincare viso e corpo, make-up, alta profumeria, cura capelli e igiene quotidiana.
-- **Reparto Bucato, Detersivi, Igiene & Cura Casa:** Capsule lavatrice, ammorbidenti, pastiglie lavastoviglie, sgrassatori e presidi disinfettanti.
+Applicazione gestionale multi-reparto (**60 referenze attive**) per il retail e la grande distribuzione organizzata (GDO / Megastore):
+- **👟 Reparto Calzature & Scarpe (15 articoli):** Sneakers sportive (Nike, Adidas, Puma, Asics, New Balance), stringate in pelle e cerimonie (Geox, Clarks, NeroGiardini), stivali outdoor (Lumberjack), antinfortunistica S1P (U-Power), comfort e plantari anatomici (Birkenstock, Inblu, Skechers) con **filtro rapido taglie 38-45**.
+- **👕 Reparto Moda, Abbigliamento & Valigeria (15 articoli):** Denim e jeans (Levi's 501, Lee, Carrera), felpe e tute (Champion, Kappa), camiceria e polo (Tommy Hilfiger, Jack & Jones), capispalla impermeabili (K-Way, Geox), maglieria in lana (Navigare), intimo Supima (Intimissimi) e valigeria/trolley cabina (Samsonite, Carpisa, Roncato).
+- **✨ Reparto Bellezza, Cosmesi & Igiene (15 articoli):** Skincare e trattamenti viso (L'Oréal Revitalift, Clinique, Garnier), profumeria di prestigio (Acqua di Giò Giorgio Armani), cura del corpo e scrub (Collistar, Nivea, Felce Azzurra, Dove), cura dei capelli (Pantene, Head & Shoulders), make-up (Maybelline), igiene orale e rasatura (Oral-B, Gillette Fusion 5, Proraso, Borotalco).
+- **🧼 Reparto Bucato, Detersivi & Cura Casa (15 articoli):** Detersivi lavatrice e pods (Dash, Dixan), ammorbidenti (Lenor), sgrassatori universali e cucina (Chanteclair, Smac), pastiglie lavastoviglie (Fairy, Finish), disinfettanti e candeggina (Lysoform, Ace, Scala), manutenzione elettrodomestici (Calgon) e accessori pulizia (Swiffer Duster, Vileda Turbo Smart a pedale, Regina).
 
 Sviluppato da **Valentyn Haidukov** (Perito Informatico e Telecomunicazioni, Categorie Protette L. 68/99).
 
@@ -14,14 +14,21 @@ Sviluppato da **Valentyn Haidukov** (Perito Informatico e Telecomunicazioni, Cat
 ---
 
 ## 🎯 Competenze Dimostrate per Addetto Vendite & Cassa
-1. **Gestione Assortimento Calzature & Moda:** organizzazione per taglie, calzata, allestimento corsie ed esposizione prodotti.
-2. **Gestione Igiene, Bellezza & Cura Casa:** catalogazione per formati (flaconi, ecoricariche, monodosi), principi attivi e modalità d'uso.
-3. **Simulatore Cassa Touch POS & Scontrino:** lettura barcode EAN-13, sconti promozionali volantino, Sconto Carta Fedeltà (-10%), scorporo automatico IVA 22% e stampa scontrino fiscale.
-4. **Assistenza & Consulenza al Cliente:** note pratiche di vendita su materiali, calzata, resa e applicazione di ogni referenza.
+1. **Gestione Assortimento Multireparto:** organizzazione per taglie calzature (38-45), calzata, allestimento corsie, codici modello ed esposizione scaffali.
+2. **Conoscenza Prodotti & Schede Tecniche:** catalogazione per brand, principi attivi, formati, note di composizione e guida alla vendita con consigli pratici per il cliente.
+3. **Cassa Touch POS & Gestione Pagamenti:**
+   - Lettura barcode EAN-13 e sconti promozionali volantino.
+   - **Tasto Carta Fedeltà (-10%)** con ricalcolo immediato di imponibile e scorporo IVA 22%.
+   - **Pagamento Contanti:** calcolo resto istantaneo con tasti rapidi per banconote (€10, €20, €50, €100, Esatto).
+   - **Pagamento POS Elettronico:** simulazione transazione contactless con codice di autorizzazione bancaria.
+4. **Scontrino Fiscale Termico 80mm:**
+   - Layout documento commerciale di vendita con matricola registratore telematico (RT), lotteria scontrini e barcode ottico.
+   - **Generatore PDF vettoriale puro in JavaScript** (scaricabile all'istante su PC e smartphone senza librerie esterne).
+   - Stampa ottimizzata a pagina singola e pulsante Condividi (Web Share API nativa).
 
 ---
 
-## 🛠️ Tecnologie
-- HTML5 Semantico & OpenGraph Meta
-- CSS3 Moderno (Dark Mode ad alto contrasto, Layout responsive, Stili di stampa)
-- Vanilla JavaScript ES6+ (Filtro per taglia calzature, carrello POS reattivo, ricerca in tempo reale)
+## 🛠️ Tecnologie Utilizzate
+- **HTML5 Semantico** (struttura accessibile, OpenGraph metadata)
+- **CSS3 Moderno** (Dark Mode Emerald & Amber Megastore, Flexbox/Grid, stili di stampa termica 80mm)
+- **JavaScript ES6+** (filtraggio dinamico multi-reparto, stato cassa reattivo, generatore PDF-1.4 vettoriale)
