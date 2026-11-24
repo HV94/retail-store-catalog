@@ -1907,6 +1907,7 @@ body {
 
   /* Cassa & Carrello a cassetto dal basso (Bottom Sheet) */
   .cart-drawer {
+    position: fixed !important;
     top: auto !important;
     right: 0 !important;
     left: 0 !important;
