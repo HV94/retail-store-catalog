@@ -27,7 +27,8 @@ const CATALOGO_PRODOTTI = [
     corsia: "Corsia B1",
     taglie: "40, 41, 42, 43, 44, 45",
     descrizione: "Scarpa running classica ammortizzata ad aria, tomaia in pelle e mesh traspirante.",
-    icona: "👟"
+    icona: "👟",
+    immagine: 'https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=600&q=80'
   },
   {
     id: 2,
@@ -41,7 +42,8 @@ const CATALOGO_PRODOTTI = [
     corsia: "Corsia B2",
     taglie: "41, 42, 43, 44",
     descrizione: "Scarpa elegante da ufficio con brevetto traspirante impermeabile Geox.",
-    icona: "👞"
+    icona: "👞",
+    immagine: 'https://images.unsplash.com/photo-1533867617858-e7b97e060509?auto=format&fit=crop&w=600&q=80'
   },
   {
     id: 3,
@@ -55,7 +57,8 @@ const CATALOGO_PRODOTTI = [
     corsia: "Corsia B1",
     taglie: "39, 40, 41, 42, 43",
     descrizione: "Sneaker iconica in pelle bianca con dettagli verdi sul tallone.",
-    icona: "👟"
+    icona: "👟",
+    immagine: 'https://images.unsplash.com/photo-1584735935682-2f2b69dff9d2?auto=format&fit=crop&w=600&q=80'
   },
   {
     id: 4,
@@ -69,7 +72,8 @@ const CATALOGO_PRODOTTI = [
     corsia: "Corsia B1",
     taglie: "38, 39, 40, 41, 42",
     descrizione: "Sneaker casual scamosciata a profilo basso, suola in gomma ad alta aderenza.",
-    icona: "👟"
+    icona: "👟",
+    immagine: 'https://images.unsplash.com/photo-1608231387042-66d1773070a5?auto=format&fit=crop&w=600&q=80'
   },
   {
     id: 5,
@@ -83,7 +87,8 @@ const CATALOGO_PRODOTTI = [
     corsia: "Corsia B3",
     taglie: "41, 42, 43, 44, 45",
     descrizione: "Calzatura tecnica da maratona e lunghi percorsi con tecnologia PureGEL.",
-    icona: "🏃"
+    icona: "🏃",
+    immagine: 'https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?auto=format&fit=crop&w=600&q=80'
   },
 
   // Reparto: Moda & Valigeria
@@ -99,7 +104,8 @@ const CATALOGO_PRODOTTI = [
     corsia: "Corsia C1",
     taglie: "30, 32, 34, 36",
     descrizione: "Jeans taglio dritto iconico in denim 100% cotone resistente, lavaggio medio.",
-    icona: "👖"
+    icona: "👖",
+    immagine: 'https://images.unsplash.com/photo-1541099649105-f69ad21f3246?auto=format&fit=crop&w=600&q=80'
   },
   {
     id: 7,
@@ -113,7 +119,8 @@ const CATALOGO_PRODOTTI = [
     corsia: "Corsia C2",
     taglie: "S, M, L, XL",
     descrizione: "Felpa sportiva in cotone garzato con tasca a marsupio e logo ricamato.",
-    icona: "👕"
+    icona: "👕",
+    immagine: 'https://images.unsplash.com/photo-1556905055-8f358a7a47b2?auto=format&fit=crop&w=600&q=80'
   },
   {
     id: 8,
@@ -127,7 +134,8 @@ const CATALOGO_PRODOTTI = [
     corsia: "Corsia C3",
     taglie: "S, M, L, XL",
     descrizione: "Giacca a vento tascabile impermeabile e traspirante con cappuccio.",
-    icona: "🧥"
+    icona: "🧥",
+    immagine: 'https://images.unsplash.com/photo-1548883354-7622d03aca27?auto=format&fit=crop&w=600&q=80'
   },
   {
     id: 9,
@@ -141,7 +149,8 @@ const CATALOGO_PRODOTTI = [
     corsia: "Corsia C1",
     taglie: "M, L, XL",
     descrizione: "Maglietta girocollo in puro cotone biologico con bandierina ricamata.",
-    icona: "👕"
+    icona: "👕",
+    immagine: 'https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=600&q=80'
   },
   {
     id: 10,
@@ -155,7 +164,8 @@ const CATALOGO_PRODOTTI = [
     corsia: "Corsia C4",
     taglie: "Bagaglio a Mano",
     descrizione: "Valigia rigida ultraleggera 4 ruote con chiusura TSA omologata per voli.",
-    icona: "🧳"
+    icona: "🧳",
+    immagine: 'https://images.unsplash.com/photo-1565026057447-bc90a3dceb87?auto=format&fit=crop&w=600&q=80'
   },
 
   // Reparto: Bellezza & Igiene
@@ -171,7 +181,8 @@ const CATALOGO_PRODOTTI = [
     corsia: "Corsia D1",
     taglie: "50 ml Spray",
     descrizione: "Eau de Toilette fresca e marina con note di bergamotto e rosmarino.",
-    icona: "✨"
+    icona: "✨",
+    immagine: 'https://images.unsplash.com/photo-1523293182086-7651a899d37f?auto=format&fit=crop&w=600&q=80'
   },
   {
     id: 12,
@@ -185,7 +196,8 @@ const CATALOGO_PRODOTTI = [
     corsia: "Corsia D2",
     taglie: "50 ml",
     descrizione: "Crema gel idratante anti-fatica arricchita con estratto di Guaranà e Vitamina C.",
-    icona: "🧴"
+    icona: "🧴",
+    immagine: 'https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&w=600&q=80'
   },
   {
     id: 13,
@@ -199,7 +211,8 @@ const CATALOGO_PRODOTTI = [
     corsia: "Corsia D3",
     taglie: "Confezione Box",
     descrizione: "Spazzolino ricaricabile con testina tonda oscillante e sensore di pressione.",
-    icona: "🪥"
+    icona: "🪥",
+    immagine: 'https://images.unsplash.com/photo-1607613009820-a29f7bb81c04?auto=format&fit=crop&w=600&q=80'
   },
   {
     id: 14,
@@ -213,7 +226,8 @@ const CATALOGO_PRODOTTI = [
     corsia: "Corsia D2",
     taglie: "400 ml Maxi",
     descrizione: "Crema intensiva nutriente per il corpo con collagene e acido ialuronico.",
-    icona: "✨"
+    icona: "✨",
+    immagine: 'https://images.unsplash.com/photo-1571781926291-c477ebfd024b?auto=format&fit=crop&w=600&q=80'
   },
   {
     id: 15,
@@ -227,7 +241,8 @@ const CATALOGO_PRODOTTI = [
     corsia: "Corsia D3",
     taglie: "Scatola Metallo",
     descrizione: "Kit tradizionale da rasatura: crema pre-barba, sapone da barba e dopobarba.",
-    icona: "💈"
+    icona: "💈",
+    immagine: 'https://images.unsplash.com/photo-1503951914875-452162b0f3f1?auto=format&fit=crop&w=600&q=80'
   },
 
   // Reparto: Bucato & Cura Casa
@@ -243,7 +258,8 @@ const CATALOGO_PRODOTTI = [
     corsia: "Corsia E1",
     taglie: "40 capsule",
     descrizione: "Ecodosi predosate salva-spazio per igiene profonda e smacchiatura a freddo.",
-    icona: "🧼"
+    icona: "🧼",
+    immagine: 'https://images.unsplash.com/photo-1610557892470-55d9e80c0bce?auto=format&fit=crop&w=600&q=80'
   },
   {
     id: 17,
@@ -257,7 +273,8 @@ const CATALOGO_PRODOTTI = [
     corsia: "Corsia E1",
     taglie: "2 Litri",
     descrizione: "Ammorbidente concentrato classico con profumazione persistente.",
-    icona: "🌸"
+    icona: "🌸",
+    immagine: 'https://images.unsplash.com/photo-1583947581924-860bda6a26df?auto=format&fit=crop&w=600&q=80'
   },
   {
     id: 18,
@@ -271,7 +288,8 @@ const CATALOGO_PRODOTTI = [
     corsia: "Corsia E2",
     taglie: "1 Manico + 4 Piumini",
     descrizione: "Piumino con fibre elettrostatiche per intrappolare polvere e peli.",
-    icona: "🧹"
+    icona: "🧹",
+    immagine: 'https://images.unsplash.com/photo-1581578731548-c64695cc6952?auto=format&fit=crop&w=600&q=80'
   },
   {
     id: 19,
@@ -285,7 +303,8 @@ const CATALOGO_PRODOTTI = [
     corsia: "Corsia E2",
     taglie: "Spray 625 ml",
     descrizione: "Detergente concentrato al profumo di marsiglia per cucina, piani e tessuti.",
-    icona: "🧽"
+    icona: "🧽",
+    immagine: 'https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?auto=format&fit=crop&w=600&q=80'
   },
   {
     id: 20,
@@ -299,7 +318,8 @@ const CATALOGO_PRODOTTI = [
     corsia: "Corsia E3",
     taglie: "54 Tabs",
     descrizione: "Pastiglie lavastoviglie con azione sgrassante e brillantante senza prelavaggio.",
-    icona: "🍽️"
+    icona: "🍽️",
+    immagine: 'https://images.unsplash.com/photo-1583947215259-38e31be8751f?auto=format&fit=crop&w=600&q=80'
   }
 ];
 
@@ -489,8 +509,10 @@ function renderCatalogo() {
 
   container.innerHTML = filtrati.map(p => `
     <article class="product-card" data-id="${p.id}">
-      <div class="product-image-container" style="background: rgba(15, 23, 42, 0.6); display: flex; align-items: center; justify-content: center; font-size: 2.8rem; border-radius: 10px;">
-        ${p.icona}
+      <div class="product-image-container" style="position: relative; width: 100%; height: 140px; border-radius: 10px; overflow: hidden; background: #0f172a;">
+        <img src="${p.immagine}" alt="${p.nome}" loading="lazy" style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.3s ease;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+        <div style="display: none; width: 100%; height: 100%; align-items: center; justify-content: center; font-size: 2.8rem; background: rgba(15, 23, 42, 0.6);">${p.icona}</div>
+        <span style="position: absolute; top: 8px; right: 8px; background: rgba(15, 23, 42, 0.82); backdrop-filter: blur(4px); padding: 3px 8px; border-radius: 6px; font-size: 0.72rem; font-weight: 700; color: #38bdf8; border: 1px solid rgba(56, 189, 248, 0.3);">${p.icona} ${p.marca}</span>
       </div>
       <div class="product-info" style="display: flex; flex-direction: column; gap: 0.25rem;">
         <span class="card-brand" style="font-size: 0.75rem; color: #38bdf8; font-weight: 600; text-transform: uppercase;">${p.marca} &bull; ${p.corsia}</span>
