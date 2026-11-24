@@ -212,7 +212,7 @@ const CATALOGO_PRODOTTI = [
     taglie: "Confezione Box",
     descrizione: "Spazzolino ricaricabile con testina tonda oscillante e sensore di pressione.",
     icona: "🪥",
-    immagine: 'https://images.unsplash.com/photo-1607613009820-a29f7bb81c04?auto=format&fit=crop&w=600&q=80'
+    immagine: 'https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?auto=format&fit=crop&w=600&q=80'
   },
   {
     id: 14,
@@ -259,7 +259,7 @@ const CATALOGO_PRODOTTI = [
     taglie: "40 capsule",
     descrizione: "Ecodosi predosate salva-spazio per igiene profonda e smacchiatura a freddo.",
     icona: "🧼",
-    immagine: 'https://images.unsplash.com/photo-1610557892470-55d9e80c0bce?auto=format&fit=crop&w=600&q=80'
+    immagine: 'https://images.unsplash.com/photo-1584813470613-5b1c1cad3d69?auto=format&fit=crop&w=600&q=80'
   },
   {
     id: 17,
@@ -304,7 +304,7 @@ const CATALOGO_PRODOTTI = [
     taglie: "Spray 625 ml",
     descrizione: "Detergente concentrato al profumo di marsiglia per cucina, piani e tessuti.",
     icona: "🧽",
-    immagine: 'https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?auto=format&fit=crop&w=600&q=80'
+    immagine: 'https://images.unsplash.com/photo-1585421514284-efb74c2b69ba?auto=format&fit=crop&w=600&q=80'
   },
   {
     id: 20,
