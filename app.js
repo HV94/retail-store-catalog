@@ -58,7 +58,7 @@ const CATALOGO_PRODOTTI = [
     taglie: "39, 40, 41, 42, 43",
     descrizione: "Sneaker iconica in pelle bianca con dettagli verdi sul tallone.",
     icona: "👟",
-    immagine: 'https://images.unsplash.com/photo-1584735935682-2f2b69dff9d2?auto=format&fit=crop&w=600&q=80'
+    immagine: 'https://images.unsplash.com/photo-1587563871167-1ee9c731aefb?auto=format&fit=crop&w=600&q=80'
   },
   {
     id: 4,
@@ -120,7 +120,7 @@ const CATALOGO_PRODOTTI = [
     taglie: "S, M, L, XL",
     descrizione: "Felpa sportiva in cotone garzato con tasca a marsupio e logo ricamato.",
     icona: "👕",
-    immagine: 'https://images.unsplash.com/photo-1556905055-8f358a7a47b2?auto=format&fit=crop&w=600&q=80'
+    immagine: 'https://images.unsplash.com/photo-1620799140188-3b2a02fd9a77?auto=format&fit=crop&w=600&q=80'
   },
   {
     id: 8,
@@ -135,7 +135,7 @@ const CATALOGO_PRODOTTI = [
     taglie: "S, M, L, XL",
     descrizione: "Giacca a vento tascabile impermeabile e traspirante con cappuccio.",
     icona: "🧥",
-    immagine: 'https://images.unsplash.com/photo-1548883354-7622d03aca27?auto=format&fit=crop&w=600&q=80'
+    immagine: 'https://images.unsplash.com/photo-1591047139829-d91aecb6caea?auto=format&fit=crop&w=600&q=80'
   },
   {
     id: 9,
@@ -150,7 +150,7 @@ const CATALOGO_PRODOTTI = [
     taglie: "M, L, XL",
     descrizione: "Maglietta girocollo in puro cotone biologico con bandierina ricamata.",
     icona: "👕",
-    immagine: 'https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=600&q=80'
+    immagine: 'https://images.unsplash.com/photo-1529374255404-311a2a4f1fd9?auto=format&fit=crop&w=600&q=80'
   },
   {
     id: 10,
@@ -165,7 +165,7 @@ const CATALOGO_PRODOTTI = [
     taglie: "Bagaglio a Mano",
     descrizione: "Valigia rigida ultraleggera 4 ruote con chiusura TSA omologata per voli.",
     icona: "🧳",
-    immagine: 'https://images.unsplash.com/photo-1565026057447-bc90a3dceb87?auto=format&fit=crop&w=600&q=80'
+    immagine: 'https://images.unsplash.com/photo-1581553680321-4fffae59fccd?auto=format&fit=crop&w=600&q=80'
   },
 
   // Reparto: Bellezza & Igiene
@@ -182,7 +182,7 @@ const CATALOGO_PRODOTTI = [
     taglie: "50 ml Spray",
     descrizione: "Eau de Toilette fresca e marina con note di bergamotto e rosmarino.",
     icona: "✨",
-    immagine: 'https://images.unsplash.com/photo-1523293182086-7651a899d37f?auto=format&fit=crop&w=600&q=80'
+    immagine: 'https://images.unsplash.com/photo-1588405748880-12d1d2a59f75?auto=format&fit=crop&w=600&q=80'
   },
   {
     id: 12,
@@ -197,7 +197,7 @@ const CATALOGO_PRODOTTI = [
     taglie: "50 ml",
     descrizione: "Crema gel idratante anti-fatica arricchita con estratto di Guaranà e Vitamina C.",
     icona: "🧴",
-    immagine: 'https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&w=600&q=80'
+    immagine: 'https://images.unsplash.com/photo-1598440947619-2c35fc9aa908?auto=format&fit=crop&w=600&q=80'
   },
   {
     id: 13,
