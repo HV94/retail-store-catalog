@@ -460,6 +460,8 @@ function setupEventListeners() {
   const printReceiptBtn = document.getElementById('printReceiptBtn');
 
   if (closeReceiptBtn) closeReceiptBtn.addEventListener('click', chiudiScontrino);
+  const closeReceiptCornerBtn = document.getElementById('closeReceiptCornerBtn');
+  if (closeReceiptCornerBtn) closeReceiptCornerBtn.addEventListener('click', chiudiScontrino);
   if (receiptOverlay) receiptOverlay.addEventListener('click', chiudiScontrino);
   if (printReceiptBtn) {
     printReceiptBtn.addEventListener('click', () => {
