@@ -991,24 +991,26 @@ body {
   visibility: visible;
 }
 
-.cart-drawer {
-  position: fixed;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  width: 100%;
-  max-width: 440px;
-  background: var(--bg-surface);
-  border-left: 1px solid var(--border-medium);
-  z-index: 95;
-  transform: translateX(100%);
-  transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1);
-  display: flex;
-  flex-direction: column;
-}
+@media (min-width: 641px) {
+  .cart-drawer {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    max-width: 440px;
+    background: var(--bg-surface);
+    border-left: 1px solid var(--border-medium);
+    z-index: 95;
+    transform: translateX(100%);
+    transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+    display: flex;
+    flex-direction: column;
+  }
 
-.cart-drawer.open {
-  transform: translateX(0);
+  .cart-drawer.open {
+    transform: translateX(0);
+  }
 }
 
 .drawer-header {
@@ -1017,6 +1019,35 @@ body {
   justify-content: space-between;
   padding: 1.25rem;
   border-bottom: 1px solid var(--border-subtle);
+  position: relative;
+}
+
+.cart-close-corner-btn, #drawer-close-btn {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.15);
+  color: #ffffff;
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  font-size: 1.5rem;
+  line-height: 1;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 100000;
+  transition: all 0.2s ease;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+.cart-close-corner-btn:hover, #drawer-close-btn:hover {
+  background: #ef4444;
+  border-color: #ef4444;
+  color: #ffffff;
+  transform: scale(1.08);
 }
 
 .drawer-title {
@@ -1947,6 +1978,8 @@ body {
     height: 90dvh !important;
     max-height: 90vh !important;
     max-height: 90dvh !important;
+    background: #0b1120 !important;
+    color: #f8fafc !important;
     border-radius: 24px 24px 0 0 !important;
     border-top: 2px solid var(--accent-orange) !important;
     border-left: none !important;
@@ -1966,8 +1999,20 @@ body {
 
   .drawer-header {
     position: relative !important;
-    padding: 1.5rem 1rem 0.75rem 1rem !important;
+    padding: 1.5rem 54px 0.75rem 1rem !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
     flex-shrink: 0 !important;
+  }
+
+  .cart-close-corner-btn, #drawer-close-btn {
+    position: absolute !important;
+    top: 12px !important;
+    right: 12px !important;
+    width: 38px !important;
+    height: 38px !important;
+    display: flex !important;
   }
 
   .drawer-header::before {
