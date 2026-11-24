@@ -5,7 +5,7 @@
  * CARATTERISTICHE:
  * - Catalogo referenze suddiviso per reparti merceologici
  * - Ricerca in tempo reale per nome, marca o codice EAN
- * - Carrello cassa con gestione quantità (+ / -), subtotale, IVA 22% e sconto
+ * - Carrello cassa con gestione quantità (+ / -), subtotale, IVA 4% e sconto
  * - Scontrino fiscale di vendita con stampa diretta (window.print)
  * ==============================================================================
  */
@@ -21,7 +21,7 @@ const CATALOGO_PRODOTTI = [
     categoria: "calzature",
     repartoNome: "Calzature & Scarpe",
     marca: "Nike",
-    prezzo: 69.90,
+    prezzo: 49.90,
     pezzi: 18,
     ean: "8884072314561",
     corsia: "Corsia B1",
@@ -36,7 +36,7 @@ const CATALOGO_PRODOTTI = [
     categoria: "calzature",
     repartoNome: "Calzature & Scarpe",
     marca: "Geox",
-    prezzo: 99.90,
+    prezzo: 59.90,
     pezzi: 12,
     ean: "8056274092113",
     corsia: "Corsia B2",
@@ -51,7 +51,7 @@ const CATALOGO_PRODOTTI = [
     categoria: "calzature",
     repartoNome: "Calzature & Scarpe",
     marca: "Adidas",
-    prezzo: 75.00,
+    prezzo: 49.00,
     pezzi: 25,
     ean: "4061615112233",
     corsia: "Corsia B1",
@@ -66,7 +66,7 @@ const CATALOGO_PRODOTTI = [
     categoria: "calzature",
     repartoNome: "Calzature & Scarpe",
     marca: "Puma",
-    prezzo: 45.00,
+    prezzo: 32.00,
     pezzi: 30,
     ean: "4059506223344",
     corsia: "Corsia B1",
@@ -81,7 +81,7 @@ const CATALOGO_PRODOTTI = [
     categoria: "calzature",
     repartoNome: "Calzature & Scarpe",
     marca: "Asics",
-    prezzo: 129.90,
+    prezzo: 79.90,
     pezzi: 10,
     ean: "4550455667788",
     corsia: "Corsia B3",
@@ -98,7 +98,7 @@ const CATALOGO_PRODOTTI = [
     categoria: "abbigliamento",
     repartoNome: "Moda & Valigeria",
     marca: "Levi's",
-    prezzo: 89.00,
+    prezzo: 54.00,
     pezzi: 22,
     ean: "5400538990112",
     corsia: "Corsia C1",
@@ -113,7 +113,7 @@ const CATALOGO_PRODOTTI = [
     categoria: "abbigliamento",
     repartoNome: "Moda & Valigeria",
     marca: "Champion",
-    prezzo: 49.90,
+    prezzo: 34.90,
     pezzi: 15,
     ean: "8057283991201",
     corsia: "Corsia C2",
@@ -128,7 +128,7 @@ const CATALOGO_PRODOTTI = [
     categoria: "abbigliamento",
     repartoNome: "Moda & Valigeria",
     marca: "K-Way",
-    prezzo: 95.00,
+    prezzo: 59.00,
     pezzi: 14,
     ean: "8033284001923",
     corsia: "Corsia C3",
@@ -143,7 +143,7 @@ const CATALOGO_PRODOTTI = [
     categoria: "abbigliamento",
     repartoNome: "Moda & Valigeria",
     marca: "Tommy Hilfiger",
-    prezzo: 34.90,
+    prezzo: 22.90,
     pezzi: 28,
     ean: "8720113948502",
     corsia: "Corsia C1",
@@ -158,7 +158,7 @@ const CATALOGO_PRODOTTI = [
     categoria: "abbigliamento",
     repartoNome: "Moda & Valigeria",
     marca: "Samsonite",
-    prezzo: 149.00,
+    prezzo: 89.00,
     pezzi: 8,
     ean: "5414847981123",
     corsia: "Corsia C4",
@@ -175,7 +175,7 @@ const CATALOGO_PRODOTTI = [
     categoria: "profumeria",
     repartoNome: "Bellezza & Igiene",
     marca: "Armani",
-    prezzo: 72.00,
+    prezzo: 48.00,
     pezzi: 16,
     ean: "3360372058878",
     corsia: "Corsia D1",
@@ -190,7 +190,7 @@ const CATALOGO_PRODOTTI = [
     categoria: "profumeria",
     repartoNome: "Bellezza & Igiene",
     marca: "L'Oréal",
-    prezzo: 9.90,
+    prezzo: 6.90,
     pezzi: 35,
     ean: "3600523719001",
     corsia: "Corsia D2",
@@ -205,7 +205,7 @@ const CATALOGO_PRODOTTI = [
     categoria: "profumeria",
     repartoNome: "Bellezza & Igiene",
     marca: "Oral-B",
-    prezzo: 49.90,
+    prezzo: 34.90,
     pezzi: 18,
     ean: "4210201309887",
     corsia: "Corsia D3",
@@ -220,7 +220,7 @@ const CATALOGO_PRODOTTI = [
     categoria: "profumeria",
     repartoNome: "Bellezza & Igiene",
     marca: "Collistar",
-    prezzo: 32.50,
+    prezzo: 22.00,
     pezzi: 14,
     ean: "8015127251102",
     corsia: "Corsia D2",
@@ -235,7 +235,7 @@ const CATALOGO_PRODOTTI = [
     categoria: "profumeria",
     repartoNome: "Bellezza & Igiene",
     marca: "Proraso",
-    prezzo: 18.90,
+    prezzo: 13.90,
     pezzi: 20,
     ean: "8004395001201",
     corsia: "Corsia D3",
@@ -252,7 +252,7 @@ const CATALOGO_PRODOTTI = [
     categoria: "casa",
     repartoNome: "Bucato & Cura Casa",
     marca: "Dash",
-    prezzo: 12.99,
+    prezzo: 9.90,
     pezzi: 40,
     ean: "8001090881234",
     corsia: "Corsia E1",
@@ -267,7 +267,7 @@ const CATALOGO_PRODOTTI = [
     categoria: "casa",
     repartoNome: "Bucato & Cura Casa",
     marca: "Felce Azzurra",
-    prezzo: 3.49,
+    prezzo: 2.49,
     pezzi: 50,
     ean: "8001280019283",
     corsia: "Corsia E1",
@@ -282,7 +282,7 @@ const CATALOGO_PRODOTTI = [
     categoria: "casa",
     repartoNome: "Bucato & Cura Casa",
     marca: "Swiffer",
-    prezzo: 5.90,
+    prezzo: 4.50,
     pezzi: 32,
     ean: "8001090123987",
     corsia: "Corsia E2",
@@ -297,7 +297,7 @@ const CATALOGO_PRODOTTI = [
     categoria: "casa",
     repartoNome: "Bucato & Cura Casa",
     marca: "Chanteclair",
-    prezzo: 2.49,
+    prezzo: 1.89,
     pezzi: 60,
     ean: "8015194510012",
     corsia: "Corsia E2",
@@ -312,7 +312,7 @@ const CATALOGO_PRODOTTI = [
     categoria: "casa",
     repartoNome: "Bucato & Cura Casa",
     marca: "Finish",
-    prezzo: 11.90,
+    prezzo: 8.90,
     pezzi: 26,
     ean: "8002910049211",
     corsia: "Corsia E3",
@@ -627,7 +627,7 @@ function aggiornaTotaliCarrello() {
   const lordo = carrello.reduce((acc, item) => acc + (item.prezzo * item.quantita), 0);
   const sconto = haCartaFedelta ? (lordo * 0.10) : 0;
   const totale = Math.max(0, lordo - sconto);
-  const imponibile = totale / 1.22;
+  const imponibile = totale / 1.04;
   const iva = totale - imponibile;
 
   const subtotalEl = document.getElementById('cart-subtotal');
@@ -682,7 +682,7 @@ function completaVendita() {
   const totale = calcolaTotaleComplessivo();
   const lordo = carrello.reduce((acc, item) => acc + (item.prezzo * item.quantita), 0);
   const sconto = haCartaFedelta ? (lordo * 0.10) : 0;
-  const imponibile = totale / 1.22;
+  const imponibile = totale / 1.04;
   const iva = totale - imponibile;
   const cashInput = document.getElementById('cashReceivedInput');
   const ricevuto = metodoPagamento === 'cash' ? (parseFloat(cashInput?.value) || totale) : totale;
