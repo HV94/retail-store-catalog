@@ -28,7 +28,7 @@ const CATALOGO_PRODOTTI = [
     taglie: "40, 41, 42, 43, 44, 45",
     descrizione: "Scarpa running classica ammortizzata ad aria, tomaia in pelle e mesh traspirante.",
     icona: "👟",
-    immagine: 'https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=600&q=80'
+    immagine: 'images/prod-1.jpg'
   },
   {
     id: 2,
@@ -43,7 +43,7 @@ const CATALOGO_PRODOTTI = [
     taglie: "41, 42, 43, 44",
     descrizione: "Scarpa elegante da ufficio con brevetto traspirante impermeabile Geox.",
     icona: "👞",
-    immagine: 'https://images.unsplash.com/photo-1533867617858-e7b97e060509?auto=format&fit=crop&w=600&q=80'
+    immagine: 'images/prod-2.jpg'
   },
   {
     id: 3,
@@ -58,7 +58,7 @@ const CATALOGO_PRODOTTI = [
     taglie: "39, 40, 41, 42, 43",
     descrizione: "Sneaker iconica in pelle bianca con dettagli verdi sul tallone.",
     icona: "👟",
-    immagine: 'https://images.unsplash.com/photo-1587563871167-1ee9c731aefb?auto=format&fit=crop&w=600&q=80'
+    immagine: 'images/prod-3.jpg'
   },
   {
     id: 4,
@@ -73,7 +73,7 @@ const CATALOGO_PRODOTTI = [
     taglie: "38, 39, 40, 41, 42",
     descrizione: "Sneaker casual scamosciata a profilo basso, suola in gomma ad alta aderenza.",
     icona: "👟",
-    immagine: 'https://images.unsplash.com/photo-1608231387042-66d1773070a5?auto=format&fit=crop&w=600&q=80'
+    immagine: 'images/prod-4.jpg'
   },
   {
     id: 5,
@@ -88,7 +88,7 @@ const CATALOGO_PRODOTTI = [
     taglie: "41, 42, 43, 44, 45",
     descrizione: "Calzatura tecnica da maratona e lunghi percorsi con tecnologia PureGEL.",
     icona: "🏃",
-    immagine: 'https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?auto=format&fit=crop&w=600&q=80'
+    immagine: 'images/prod-5.jpg'
   },
 
   // Reparto: Moda & Valigeria
@@ -105,7 +105,7 @@ const CATALOGO_PRODOTTI = [
     taglie: "30, 32, 34, 36",
     descrizione: "Jeans taglio dritto iconico in denim 100% cotone resistente, lavaggio medio.",
     icona: "👖",
-    immagine: 'https://images.unsplash.com/photo-1541099649105-f69ad21f3246?auto=format&fit=crop&w=600&q=80'
+    immagine: 'images/prod-6.jpg'
   },
   {
     id: 7,
@@ -120,7 +120,7 @@ const CATALOGO_PRODOTTI = [
     taglie: "S, M, L, XL",
     descrizione: "Felpa sportiva in cotone garzato con tasca a marsupio e logo ricamato.",
     icona: "👕",
-    immagine: 'https://images.unsplash.com/photo-1620799140188-3b2a02fd9a77?auto=format&fit=crop&w=600&q=80'
+    immagine: 'images/prod-7.jpg'
   },
   {
     id: 8,
@@ -135,7 +135,7 @@ const CATALOGO_PRODOTTI = [
     taglie: "S, M, L, XL",
     descrizione: "Giacca a vento tascabile impermeabile e traspirante con cappuccio.",
     icona: "🧥",
-    immagine: 'https://images.unsplash.com/photo-1591047139829-d91aecb6caea?auto=format&fit=crop&w=600&q=80'
+    immagine: 'images/prod-8.jpg'
   },
   {
     id: 9,
@@ -150,7 +150,7 @@ const CATALOGO_PRODOTTI = [
     taglie: "M, L, XL",
     descrizione: "Maglietta girocollo in puro cotone biologico con bandierina ricamata.",
     icona: "👕",
-    immagine: 'https://images.unsplash.com/photo-1529374255404-311a2a4f1fd9?auto=format&fit=crop&w=600&q=80'
+    immagine: 'images/prod-9.jpg'
   },
   {
     id: 10,
@@ -165,7 +165,7 @@ const CATALOGO_PRODOTTI = [
     taglie: "Bagaglio a Mano",
     descrizione: "Valigia rigida ultraleggera 4 ruote con chiusura TSA omologata per voli.",
     icona: "🧳",
-    immagine: 'https://images.unsplash.com/photo-1581553680321-4fffae59fccd?auto=format&fit=crop&w=600&q=80'
+    immagine: 'images/prod-10.jpg'
   },
 
   // Reparto: Bellezza & Igiene
@@ -182,7 +182,7 @@ const CATALOGO_PRODOTTI = [
     taglie: "50 ml Spray",
     descrizione: "Eau de Toilette fresca e marina con note di bergamotto e rosmarino.",
     icona: "✨",
-    immagine: 'https://images.unsplash.com/photo-1588405748880-12d1d2a59f75?auto=format&fit=crop&w=600&q=80'
+    immagine: 'images/prod-11.jpg'
   },
   {
     id: 12,
@@ -197,7 +197,7 @@ const CATALOGO_PRODOTTI = [
     taglie: "50 ml",
     descrizione: "Crema gel idratante anti-fatica arricchita con estratto di Guaranà e Vitamina C.",
     icona: "🧴",
-    immagine: 'https://images.unsplash.com/photo-1598440947619-2c35fc9aa908?auto=format&fit=crop&w=600&q=80'
+    immagine: 'images/prod-12.jpg'
   },
   {
     id: 13,
@@ -212,7 +212,7 @@ const CATALOGO_PRODOTTI = [
     taglie: "Confezione Box",
     descrizione: "Spazzolino ricaricabile con testina tonda oscillante e sensore di pressione.",
     icona: "🪥",
-    immagine: 'https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?auto=format&fit=crop&w=600&q=80'
+    immagine: 'images/prod-13.jpg'
   },
   {
     id: 14,
@@ -227,7 +227,7 @@ const CATALOGO_PRODOTTI = [
     taglie: "400 ml Maxi",
     descrizione: "Crema intensiva nutriente per il corpo con collagene e acido ialuronico.",
     icona: "✨",
-    immagine: 'https://images.unsplash.com/photo-1571781926291-c477ebfd024b?auto=format&fit=crop&w=600&q=80'
+    immagine: 'images/prod-14.jpg'
   },
   {
     id: 15,
@@ -242,7 +242,7 @@ const CATALOGO_PRODOTTI = [
     taglie: "Scatola Metallo",
     descrizione: "Kit tradizionale da rasatura: crema pre-barba, sapone da barba e dopobarba.",
     icona: "💈",
-    immagine: 'https://images.unsplash.com/photo-1503951914875-452162b0f3f1?auto=format&fit=crop&w=600&q=80'
+    immagine: 'images/prod-15.jpg'
   },
 
   // Reparto: Bucato & Cura Casa
@@ -259,7 +259,7 @@ const CATALOGO_PRODOTTI = [
     taglie: "40 capsule",
     descrizione: "Ecodosi predosate salva-spazio per igiene profonda e smacchiatura a freddo.",
     icona: "🧼",
-    immagine: 'https://images.unsplash.com/photo-1584813470613-5b1c1cad3d69?auto=format&fit=crop&w=600&q=80'
+    immagine: 'images/prod-16.jpg'
   },
   {
     id: 17,
@@ -274,7 +274,7 @@ const CATALOGO_PRODOTTI = [
     taglie: "2 Litri",
     descrizione: "Ammorbidente concentrato classico con profumazione persistente.",
     icona: "🌸",
-    immagine: 'https://images.unsplash.com/photo-1583947581924-860bda6a26df?auto=format&fit=crop&w=600&q=80'
+    immagine: 'images/prod-17.jpg'
   },
   {
     id: 18,
@@ -289,7 +289,7 @@ const CATALOGO_PRODOTTI = [
     taglie: "1 Manico + 4 Piumini",
     descrizione: "Piumino con fibre elettrostatiche per intrappolare polvere e peli.",
     icona: "🧹",
-    immagine: 'https://images.unsplash.com/photo-1581578731548-c64695cc6952?auto=format&fit=crop&w=600&q=80'
+    immagine: 'images/prod-18.jpg'
   },
   {
     id: 19,
@@ -304,7 +304,7 @@ const CATALOGO_PRODOTTI = [
     taglie: "Spray 625 ml",
     descrizione: "Detergente concentrato al profumo di marsiglia per cucina, piani e tessuti.",
     icona: "🧽",
-    immagine: 'https://images.unsplash.com/photo-1585421514284-efb74c2b69ba?auto=format&fit=crop&w=600&q=80'
+    immagine: 'images/prod-19.jpg'
   },
   {
     id: 20,
@@ -319,7 +319,7 @@ const CATALOGO_PRODOTTI = [
     taglie: "54 Tabs",
     descrizione: "Pastiglie lavastoviglie con azione sgrassante e brillantante senza prelavaggio.",
     icona: "🍽️",
-    immagine: 'https://images.unsplash.com/photo-1583947215259-38e31be8751f?auto=format&fit=crop&w=600&q=80'
+    immagine: 'images/prod-20.jpg'
   }
 ];
 
