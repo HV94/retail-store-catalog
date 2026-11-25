@@ -511,8 +511,8 @@ function renderCatalogo() {
 
   container.innerHTML = filtrati.map(p => `
     <article class="product-card" data-id="${p.id}">
-      <div class="product-image-container" style="position: relative; width: 100%; height: 140px; border-radius: 10px; overflow: hidden; background: #0f172a;">
-        <img src="${p.immagine}" alt="${p.nome}" loading="lazy" style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.3s ease;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+      <div class="product-image-container" style="position: relative; width: 100%; height: 140px; border-radius: 10px; overflow: hidden; background: #0f172a; display: flex; align-items: center; justify-content: center; padding: 6px;">
+        <img src="${p.immagine}?v=10.0" alt="${p.nome}" loading="lazy" style="max-width: 100%; max-height: 100%; object-fit: contain; transition: transform 0.3s ease;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
         <div style="display: none; width: 100%; height: 100%; align-items: center; justify-content: center; font-size: 2.8rem; background: rgba(15, 23, 42, 0.6);">${p.icona}</div>
         <span style="position: absolute; top: 8px; right: 8px; background: rgba(15, 23, 42, 0.82); backdrop-filter: blur(4px); padding: 3px 8px; border-radius: 6px; font-size: 0.72rem; font-weight: 700; color: #38bdf8; border: 1px solid rgba(56, 189, 248, 0.3);">${p.icona} ${p.marca}</span>
       </div>
