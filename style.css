@@ -2171,60 +2171,92 @@ body {
    ========================================================================== */
 @media print {
   @page {
-    size: 80mm auto;
-    margin: 0;
+    size: auto;
+    margin: 0 auto;
   }
 
   html, body {
     background: #fff !important;
     color: #000 !important;
-    margin: 0 !important;
+    margin: 0 auto !important;
     padding: 0 !important;
-    width: 80mm !important;
-    min-width: 80mm !important;
+    width: 100% !important;
     height: auto !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: flex-start !important;
   }
 
   body > *:not(#receiptModal) {
     display: none !important;
+    visibility: hidden !important;
+    height: 0 !important;
+    overflow: hidden !important;
   }
 
-  #receiptModal {
-    display: block !important;
-    position: static !important;
-    padding: 0 !important;
-    margin: 0 !important;
-    background: transparent !important;
-    width: 80mm !important;
-  }
-
+  body .top-bar,
+  body .navbar,
+  body main,
+  body .container,
+  body .catalog-container,
+  body .product-grid,
+  body .app-footer,
+  body .cart-drawer,
+  body .cart-overlay,
+  body #receiptOverlay,
   #receiptModal .modal-overlay,
   #receiptModal .receipt-actions,
   #receiptModal #closeReceiptCornerBtn,
   #receiptModal .receipt-close-corner {
     display: none !important;
+    visibility: hidden !important;
+    height: 0 !important;
+    overflow: hidden !important;
+  }
+
+  #receiptModal,
+  #receiptModal.hidden {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: flex-start !important;
+    position: static !important;
+    padding: 0 !important;
+    margin: 0 auto !important;
+    background: transparent !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    height: auto !important;
+    visibility: visible !important;
+    opacity: 1 !important;
   }
 
   #receiptModal .receipt-modal-card {
     box-shadow: none !important;
     border: none !important;
     padding: 0 !important;
-    margin: 0 !important;
-    width: 80mm !important;
-    max-width: 80mm !important;
+    margin: 0 auto !important;
+    width: 100% !important;
+    max-width: 100% !important;
     background: transparent !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: flex-start !important;
   }
 
   #receiptPaper {
     box-shadow: none !important;
-    border: none !important;
-    padding: 4mm !important;
-    width: 100% !important;
-    max-width: 100% !important;
+    border: 1px dashed #222222 !important;
+    padding: 0.75rem !important;
+    width: 330px !important;
+    max-width: 95% !important;
     font-size: 8pt !important;
+    line-height: 1.25 !important;
     background: #fff !important;
     color: #000 !important;
-    margin: 0 !important;
+    margin: 0.5rem auto !important;
     page-break-inside: avoid !important;
     break-inside: avoid !important;
   }
